@@ -78,7 +78,14 @@ menu {
     gap: 24px;
     margin-top: 32px;
 }
-
+.PnG{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    
+}
 .dish {
     display: flex;
     flex-direction: column;
@@ -123,16 +130,7 @@ menu {
     gap: 20px;
 }
 
-@media screen and (max-width: 1170px) {
-    #dishes {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
-    .dish {
-        width: calc(50% - 12px);
-    }
-}
 
 @media screen and (max-width: 600px) {
     .dish {
@@ -146,4 +144,11 @@ menu {
 .section-title{
     color: #e9a209;
     font-size: 1.563rem;
+}
+.preco{
+    font-size: 1.5rem;
+    color: #e9a209;
+}
+.span{
+    font-size: 1.5rem;
 }
