@@ -132,15 +132,7 @@ menu {
 
 
 
-@media screen and (max-width: 600px) {
-    .dish {
-        width: 100%;
-    }
 
-    #menu .section-subtitle {
-        text-align: center;
-    }
-} 
 .section-title{
     color: #e9a209;
     font-size: 1.563rem;
